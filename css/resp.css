@@ -1,0 +1,112 @@
+@media only screen and (max-width:850px) {
+    .logo {
+        padding-right: 15px;
+        margin-inline-start: 6px;
+    }
+    .logo img {
+        margin-left: 0;
+        width: 35px;
+        height: fit-content;
+    }
+
+    .container {
+        height: 67vh;
+        background: url('https://imgs.search.brave.com/RmM8uYrnChM8iZaLILD-QfUTs8HotPeVwozmskon9bg/rs:fit:1200:1050:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM0MTM1/NzkuanBn') center/cover;
+        color: white;
+        display: flex;
+        margin: 14px auto;
+        width: 88%;
+        border-radius: 2rem;
+        padding: 20px 14px;
+    }
+
+    .songitem {
+        background-color: #151814d6;
+        width: auto;
+    }
+
+    .songinfo {
+        position: initial;
+        bottom: 0;
+        padding: 4px;
+        padding-bottom: 26px;
+        text-align: center;
+    }
+
+    .songname {
+        display: table-header-group;
+        overflow-x: overlay;
+        scroll-behavior: smooth;
+        white-space: nowrap;
+        position: relative;
+        height: auto;
+        width: 100vw;
+        animation: scrolling 5s cubic-bezier(0, -0.65, 0.88, 1.51) 2;
+        padding-block: 10px;
+        margin-inline: 15px;
+    }
+
+    .songanimetion {
+        width: 1000%;
+        height: auto;
+
+
+    }
+
+    @keyframes scrolling {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .songlistplay {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .timespan {
+        font-size: 0.8rem;
+    }
+
+    .fa-pause:before {
+        
+            margin-right: 15px;
+    }
+.bottom{
+    padding-top: 30px;
+}
+#currenttime{
+    padding-inline: 5px;
+    position: absolute;
+    top: 4vh;
+    left: 11vw;
+     padding-inline: 5px;
+    
+}
+#currentduration{
+   position: absolute;
+   top: 4vh;
+   right: 11vw;
+    padding-inline: 5px;
+   
+}
+#timer{
+    display: block;
+    font-size: 0.7rem;
+}
+}
+    @media only screen and (max-height:735px) {
+
+        .container{
+            height: 52vh;
+            margin: 25px auto
+        }
+    }
+
+
